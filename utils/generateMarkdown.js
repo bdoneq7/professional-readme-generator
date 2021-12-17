@@ -12,17 +12,60 @@
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `# ${data.title}
+  return `
+  ## ${data.title}
+
+  ## Description
+  ${data.description}
+
+  ## Table of Contents
+
+  *[Installation](#installation)
+  *[Usage](#usage)
+  *[Credits](#credits)
+  *[License](#license)
+  *[Badges](#badges)
+  *[Features](#features)
+  *[Contributing](#contributing)
+  *[Tests](#tests)
+
+  ## Installation
+
+  ${data[0].installation}
+
+  ## Usage
+  ${data[0].usage}
+
+  ## Credits
+  ${data[0].credits}
+
+  ## License
+  ${data[0].license}
+
+  ## Contributing
+  ${data[0].contribution}
+
+  ## Test
+  ${data[0].test}
+
+  ## Questions
+  ${data[0].questions}
+
+  ## Github
+  ${data[0].github}
+
+  ## Email
+  ${data[0].email}
 
 `;
-}
 
+}
 
 const fs = require('fs');
 
 const writeFile = fileContent => {
     return new Promise((resolve, reject) => {
-        fs.writeFile('./dist/index.html', fileContent, err => {
+        fs.writeFile('./dist/README.md', fileContent, err => {
             // if there's an error, reject the Promise and send the error to the Promise's `.catch()` method
             if (err) {
                 reject(err);
@@ -33,7 +76,7 @@ const writeFile = fileContent => {
             // if everything went well, resolve the Promise and send the successful data to the `.then()` method 
             resolve({
                 ok: true,
-                message: 'Html File created!'
+                message: 'Readme File created!'
             });
         });
     });

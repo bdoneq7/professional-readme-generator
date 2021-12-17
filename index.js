@@ -4,13 +4,6 @@ const {writeFile, copyFile} = require('./utils/generateMarkdown.js');
 const generatePage = require('./src/page-template.js');
 
 // TODO: Create an array of questions for user input
-// Q1: Title of Project
-// Q2: Description
-// Q3: Installation
-// Q4: Usage
-// Q5: Contributing
-// Q6: Tests
-// Q7: Questions
 // const questions = [];
 
 
@@ -169,10 +162,10 @@ const promptUser = () => {
 
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// function writeToFile(fileName, data) {}
 
 // TODO: Create a function to initialize app
-function init() {}
+// function init() {}
 
 // Function call to initialize app
-init();
+// init();
