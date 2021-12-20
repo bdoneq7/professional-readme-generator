@@ -58,11 +58,11 @@ function createSection(license) {
 function createReadme(userInput) {
     return `
 
-    ${createBadge(userInput.badges[0], userInput.github, userInput.title)}
-    # ${userInput.title}
+${createBadge(userInput.badges[0], userInput.github, userInput.title)}
+# ${userInput.title}
 
-    ## Description
-    ${userInput.description}
+## Description
+${userInput.description}
 
     ## Table of Contents
     * [Description](#description)
@@ -85,7 +85,7 @@ function createReadme(userInput) {
     ${createSection(userInput)}
 
 
-    
+
     ## Contributing
     ${userInput.contribute}
 
