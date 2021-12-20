@@ -1,10 +1,11 @@
 
 
 <img src="https://img.shields.io/github/license/bdoneq7/professional-readme-generator?color=Green&label=MIT">
-# Professional Readme Generator
+
+## Professional README Generator
 
 ## Description
-Command-line app that accepts user input to generate a readme file
+Command-line Node.js app that accepts user input to generate a readme file
 
 ## Table of Contents
 * [Description](#description)
@@ -17,14 +18,14 @@ Command-line app that accepts user input to generate a readme file
 * [Questions](#questions)
     
 ## Installation
-run npm install
+Run npm install
 
 ## Usage
 Review Video Below to Learn How to Use this App
 https://watch.screencastify.com/v/jiHy3Go4LvwhuP1otC36
     
 ## Credits
-Brian Done
+Authored by Brian Done
 ## License
     
    <img src="https://img.shields.io/github/license/bdoneq7/professional-readme-generator?color=Green&label=MIT">

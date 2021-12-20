@@ -59,7 +59,8 @@ function createReadme(userInput) {
     return `
 
 ${createBadge(userInput.badges[0], userInput.github, userInput.title)}
-# ${userInput.title}
+
+## ${userInput.title}
 
 ## Description
 ${userInput.description}
