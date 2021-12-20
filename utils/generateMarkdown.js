@@ -64,41 +64,42 @@ ${createBadge(userInput.badges[0], userInput.github, userInput.title)}
 ## Description
 ${userInput.description}
 
-    ## Table of Contents
-    * [Description](#description)
-    * [Installation](#installation)
-    * [Usage](#usage)
-    * [Credits](#credits)
-    * [License](#license)
-    * [Contributing](#contributing)
-    * [Tests](#tests)
-    * [Questions](#questions)
+## Table of Contents
+* [Description](#description)
+* [Installation](#installation)
+* [Usage](#usage)
+* [Credits](#credits)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
     
-    ## Installation
-    ${userInput.install}
+## Installation
+${userInput.install}
 
-    ## Usage
-    Review Video to Learn How to Use this App
+## Usage
+Review Video Below to Learn How to Use this App
+https://watch.screencastify.com/v/jiHy3Go4LvwhuP1otC36
     
-    ## Credits
-    ${userInput.credit}
-    ${createSection(userInput)}
+## Credits
+${userInput.credit}
+${createSection(userInput)}
 
 
 
-    ## Contributing
-    ${userInput.contribute}
+## Contributing
+${userInput.contribute}
 
-    ## Tests
+## Tests
     
-    <img src= "https://user-images.githubusercontent.com/87787132/146451672-08bbcb79-a80e-4679-a64d-70f5f2c646c9.png">
-    How to Test: ${userInput.test}
+<img src= "https://user-images.githubusercontent.com/87787132/146451672-08bbcb79-a80e-4679-a64d-70f5f2c646c9.png">
+How to Test: ${userInput.test}
     
-    ## Questions
+## Questions
     
-    **Email**: ${userInput.email}
+**Email**: ${userInput.email}
     
-    **Github Profile**: [${userInput.github}](https://github.com/${userInput.github})
+**Github Profile**: [${userInput.github}](https://github.com/${userInput.github})
     `;
   }
   
