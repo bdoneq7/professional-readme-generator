@@ -126,7 +126,7 @@ function promptUser() {
 const createFile = (generatePage, userInput) => {
 
     return new Promise((resolve, reject) => {
-        fs.writeFile(`./dist/README.md`, generatePage, err => {
+        fs.writeFile(`./dist/${userInput.title}.md`, generatePage, err => {
             if (err) {
                 reject(err);
                 return;

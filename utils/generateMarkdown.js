@@ -96,7 +96,7 @@ function createReadme(userInput) {
     
     **Email**: ${userInput.email}
     
-    **Github**: [${userInput.github}](https://github.com/${userInput.github})
+    **Github Profile**: [${userInput.github}](https://github.com/${userInput.github})
     `;
   }
   
