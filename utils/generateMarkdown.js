@@ -57,6 +57,7 @@ function createSection(license) {
 
 function createReadme(userInput) {
     return `
+
     ${createBadge(userInput.badges[0], userInput.github, userInput.title)}
     # ${userInput.title}
 
@@ -64,14 +65,14 @@ function createReadme(userInput) {
     ${userInput.description}
 
     ## Table of Contents
-    - [Description](#description)
-    - [Installation](#installation)
-    - [Usage](#usage)
-    - [Credits](#credits)
-    - [License](#license)
-    - [Contributing](#contributing)
-    - [Tests](#tests)
-    - [Questions](#questions)
+    * [Description](#description)
+    * [Installation](#installation)
+    * [Usage](#usage)
+    * [Credits](#credits)
+    * [License](#license)
+    * [Contributing](#contributing)
+    * [Tests](#tests)
+    * [Questions](#questions)
     
     ## Installation
     ${userInput.install}
@@ -82,6 +83,7 @@ function createReadme(userInput) {
     ## Credits
     ${userInput.credit}
     ${createSection(userInput)}
+
 
     
     ## Contributing
