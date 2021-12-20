@@ -1,9 +1,9 @@
 
     <img src="https://img.shields.io/github/license/bdoneq7/professional-readme-generator?color=Green&label=MIT">
-    # krystarum
+    # README
 
     ## Description
-    test
+    command-line app that allows a user to generate a readme file based on their input
 
     ## Table of Contents
     - [Description](#description)
@@ -16,13 +16,14 @@
     - [Questions](#questions)
     
     ## Installation
-    test
+    run npm install
 
     ## Usage
-    Review Video to Learn How to Use this App
+    Review Video Link Below to Learn How to Use this App:
+    https://watch.screencastify.com/v/jiHy3Go4LvwhuP1otC36
     
     ## Credits
-    test
+    Brian Done
     ## License
     
    <img src="https://img.shields.io/github/license/bdoneq7/professional-readme-generator?color=Green&label=MIT">
@@ -32,16 +33,16 @@
 
     
     ## Contributing
-    test
+    fork the repo and apply to contribute
 
     ## Tests
     
     <img src= "https://user-images.githubusercontent.com/87787132/146451672-08bbcb79-a80e-4679-a64d-70f5f2c646c9.png">
-    How to Test: test
+    How to Test: clone the repo files and run them through node.js
     
     ## Questions
     
-    **Email**: test
+    **Email**: briguy2078@gmail.com
     
-    **Github**: [test](https://github.com/test)
+    **Github Profile**: [bdoneq7](https://github.com/bdoneq7)
     
